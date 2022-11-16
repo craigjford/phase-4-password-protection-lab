@@ -16,7 +16,7 @@ function App() {
       }
     });
   }, []);
-
+  console.log('user = ', user);
   return (
     <>
       <NavBar user={user} setUser={setUser} />
